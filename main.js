@@ -9,8 +9,8 @@ ASSET_MANAGER.queueDownload("./layer-3.png");
 ASSET_MANAGER.queueDownload("./layer-4.png");
 ASSET_MANAGER.queueDownload("./layer-5.png");
 ASSET_MANAGER.downloadAll(() => {
-	const canvas = document.getElementById("myCanvas");
-	const ctx = canvas.getContext("2d");
+	const canvas = document.getElementById('myCanvas');
+	const ctx = canvas.getContext('2d');
 	ctx.imageSmoothingEnabled = false;
 	gameEngine.addEntity(new Knight(gameEngine));
 	gameEngine.addEntity(new BackGround(gameEngine));
