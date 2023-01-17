@@ -9,8 +9,8 @@ class Knight {
         this.facing = 0;
         this.speed = 200;
         this.velocity = { x: 0, y: 0 };
-        this.spritesheet = ASSET_MANAGER.getAsset("./assets/knightright.png");
-        this.spritesheetLeft = ASSET_MANAGER.getAsset("./assets/knightsleft.png");
+        this.spritesheet = ASSET_MANAGER.getAsset("./knightright.png");
+        this.spritesheetLeft = ASSET_MANAGER.getAsset("./knightsleft.png");
 
 
         this.animations = [];
