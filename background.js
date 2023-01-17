@@ -1,10 +1,10 @@
 class BackGround{
     constructor(game) {
-        this.layer1 = ASSET_MANAGER.getAsset("./sprites/layer-1.png");
-        this.layer2 = ASSET_MANAGER.getAsset("./sprites/layer-2.png");
-        this.layer3 = ASSET_MANAGER.getAsset("./sprites/layer-3.png");
-        this.layer4 = ASSET_MANAGER.getAsset("./sprites/layer-4.png");
-        this.layer5 = ASSET_MANAGER.getAsset("./sprites/layer-5.png");
+        this.layer1 = ASSET_MANAGER.getAsset("./assets/layer-1.png");
+        this.layer2 = ASSET_MANAGER.getAsset("./assets/layer-2.png");
+        this.layer3 = ASSET_MANAGER.getAsset("./assets/layer-3.png");
+        this.layer4 = ASSET_MANAGER.getAsset("./assets/layer-4.png");
+        this.layer5 = ASSET_MANAGER.getAsset("./assets/layer-5.png");
     }
     update(){
 
